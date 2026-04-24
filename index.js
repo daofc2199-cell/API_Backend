@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 app.use((req, res, next) => {
   const allowedOrigins = [
-    'https://apibackend-production-8a24.up.railway.app',  
+    'https://apiterefasgustavo252237.up.railway.app',  
     'https://monumental-custard-c01fc2.netlify.app',
     'http://localhost:4200',             // Desenvolvimento local Angular
     'http://localhost:3000'              // Teste local
@@ -73,6 +73,6 @@ async function connectToMongoDB() {
 connectToMongoDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
-    console.log(`API: https://apibackend-production-8a24.up.railway.app`);
+    console.log(`API: https://apiterefasgustavo252237.up.railway.app`);
   });
 });
