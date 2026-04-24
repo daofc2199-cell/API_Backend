@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 app.use((req, res, next) => {
   const allowedOrigins = [
-    private apiURL = 'https://apibackend-production-8a24.up.railway.app',  
+    'https://apibackend-production-8a24.up.railway.app',  
     'https://monumental-custard-c01fc2.netlify.app',
     'http://localhost:4200',             // Desenvolvimento local Angular
     'http://localhost:3000'              // Teste local
