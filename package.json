@@ -1,5 +1,5 @@
 {
-  "name": "c",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "express": "^5.2.1",
-    "mongoose": "^9.5.0"
+    "mongoose": "^9.3.1"
   }
 }
